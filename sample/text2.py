@@ -9,6 +9,7 @@ window = sg.Window('InputTextの値を取得', layout)
 
 while True:
     event, value = window.read()  # イベントの入力を待つ
+    #変更箇所
 
     if event == '-Btn1-':
         output = value['-Input-']
