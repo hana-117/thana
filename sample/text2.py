@@ -11,6 +11,8 @@ while True:
     event, value = window.read()  # イベントの入力を待つ
     #変更箇所
     print(2)
+    
+    print(3)
 
     if event == '-Btn1-':
         output = value['-Input-']
